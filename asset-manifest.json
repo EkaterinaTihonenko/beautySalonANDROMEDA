@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beautySalonANDROMEDA/static/css/main.ea3b09bb.css",
-    "main.js": "/beautySalonANDROMEDA/static/js/main.43aa71d4.js",
+    "main.js": "/beautySalonANDROMEDA/static/js/main.31f80497.js",
     "static/media/Video.mp4": "/beautySalonANDROMEDA/static/media/Video.a391cedf14fd9ca09f19.mp4",
     "static/media/6107660225276.mp4": "/beautySalonANDROMEDA/static/media/6107660225276.fb6a5070096301e5f1a3.mp4",
     "static/media/l.mp4": "/beautySalonANDROMEDA/static/media/l.50486eddd811307e67eb.mp4",
@@ -82,10 +82,10 @@
     "index.html": "/beautySalonANDROMEDA/index.html",
     "static/media/right.svg": "/beautySalonANDROMEDA/static/media/right.8c5f54b98455417f13d9456ce2685397.svg",
     "main.ea3b09bb.css.map": "/beautySalonANDROMEDA/static/css/main.ea3b09bb.css.map",
-    "main.43aa71d4.js.map": "/beautySalonANDROMEDA/static/js/main.43aa71d4.js.map"
+    "main.31f80497.js.map": "/beautySalonANDROMEDA/static/js/main.31f80497.js.map"
   },
   "entrypoints": [
     "static/css/main.ea3b09bb.css",
-    "static/js/main.43aa71d4.js"
+    "static/js/main.31f80497.js"
   ]
 }
