@@ -1,0 +1,57 @@
+.cards {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+   margin: 0 auto;
+}
+
+.card__wrapp {
+   width: 90%;
+   padding: 35px 20px 30px;
+   margin: auto;
+   background-image: url('../../../../assets/images//card-services/1.jpg');
+   text-shadow: 1px 1px 10px #000000;
+   background-size: cover;
+   background-position: right;
+   background-repeat: no-repeat;
+}
+
+.card__wrapp:nth-child(2) {
+   background-image: url('../../../../assets/images//card-services/2.jpg');
+}
+
+.card__wrapp:nth-child(3) {
+   background-image: url('../../../../assets/images//card-services/3.jpg');
+}
+
+.card__wrapp:nth-child(4) {
+   background-image: url('../../../../assets/images//card-services/4.jpg');
+}
+
+.card__wrapp:nth-child(5) {
+   background-image: url('../../../../assets/images//card-services/5.jpg');
+}
+
+.card__wrapp:nth-child(6) {
+   background-image: url('../../../../assets/images//card-services/6.jpg');
+}
+
+
+@media (max-width: 1024px) {
+   .cards {
+      grid-template-columns: repeat(1, 1fr);
+   }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 500px) {
+   .card__wrapp {
+      height: auto;
+      width: 80%;
+   }
+
+   .card__wrapp>ul>li {
+      align-items: start;
+   }
+}

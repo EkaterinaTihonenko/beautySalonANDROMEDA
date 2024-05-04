@@ -1,0 +1,27 @@
+.logo {
+   width: 305px;
+   height: 72.2px;
+   z-index: 2;
+}
+
+.logo_img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+
+@media (max-width: 400px) {
+
+   .logo,
+   .logo_img {
+      width: 90%;
+   }
+}
+
+@media (max-width: 320px) {
+
+   .logo,
+   .logo_img {
+      width: 85%;
+   }
+}

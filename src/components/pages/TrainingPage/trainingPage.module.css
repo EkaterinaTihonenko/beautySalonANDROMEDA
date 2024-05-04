@@ -1,0 +1,12 @@
+.training {
+   padding: 0 20% 10%;
+   text-align: center;
+}
+
+
+@media (max-width: 426px) {
+
+   .training {
+      padding: 0 10% 10%;
+   }
+}

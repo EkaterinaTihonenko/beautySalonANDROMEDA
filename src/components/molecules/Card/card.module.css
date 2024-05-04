@@ -1,0 +1,96 @@
+.card {
+   height: 325px;
+   background: #161616;
+   border: 2px solid;
+   border-image: linear-gradient(45deg, #E6129E, #E6129E, #5a0000, #0000ff) 10;
+   box-shadow: 0px 0px 74px rgba(149, 44, 255, 0.8);
+   text-align: center;
+   padding: 35px 28px 30px;
+   margin: 10px;
+}
+
+.card__block div {
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 57px;
+   width: 80px;
+   height: 80px;
+   background: linear-gradient(32.54deg, #5617A7 3.47%, #B706C8 106.4%), #D9D9D9;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto 16px;
+}
+
+.card__name {
+   margin-bottom: 32px;
+}
+
+.card__link {
+   display: flex;
+   align-items: center;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 140%;
+   color: #E6129E;
+   position: relative;
+   left: 30px;
+}
+
+.card__link.arrow {
+   width: 10px;
+   height: 16px;
+   fill: transparent;
+   stroke: #E6129E;
+}
+
+.card__link:hover {
+   color: white;
+}
+
+.card__link:hover .arrow {
+   stroke: white;
+}
+
+.list {
+   gap: 5px;
+}
+
+@media (max-width: 768px) {
+   .card {
+      width: 350px;
+      margin: 10px auto;
+   }
+
+}
+
+@media (max-width: 690px) {
+   .card {
+      width: 350px;
+      margin: 10px auto;
+   }
+
+}
+
+@media (max-width: 500px) {
+   .card {
+      width: 300px;
+   }
+}
+
+@media (max-width: 400px) {
+   .card {
+      width: 250px;
+   }
+}
+
+@media (max-width: 320px) {
+   .card {
+      width: 220px;
+   }
+
+   .card__text {
+      font-size: 14px;
+   }
+}

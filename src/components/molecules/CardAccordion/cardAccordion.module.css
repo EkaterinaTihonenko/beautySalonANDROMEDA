@@ -1,0 +1,17 @@
+.tab__item {
+   display: flex;
+}
+
+.tab__item_title {
+   font-size: 20px;
+   font-weight: 500;
+   padding: 40px 0 20px;
+}
+
+.tab__items {
+   padding: 10px;
+   border: 2px solid;
+   border-image: linear-gradient(45deg, #E6129E, #E6129E, #5a0000, #0000ff) 10;
+   background-color: #2e2e2e3f;
+   box-shadow: 13px 13px 0 0 #030303, 15px 15px 0 0 #5517a74b, 15px 11px 0 0 #5517a74b, 11px 15px 0 0 #5517a74b;
+}

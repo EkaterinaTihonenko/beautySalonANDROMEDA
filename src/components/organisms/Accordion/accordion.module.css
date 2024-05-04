@@ -1,0 +1,9 @@
+.accordion {
+   margin-top: 60px;
+   overflow: hidden;
+   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.accordion p {
+   padding: 10px 0;
+}

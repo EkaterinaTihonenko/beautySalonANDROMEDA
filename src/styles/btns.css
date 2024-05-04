@@ -1,0 +1,20 @@
+.btn__fill {
+   background: #E6129E;
+   color: #FFFFFF;
+}
+
+.btn__fill:hover {
+   background: white;
+   color: #E6129E;
+}
+
+.btn__transperent {
+   background: transparent;
+   border: 1px solid #FFFFFF;
+   color: #FFFFFF;
+}
+
+.btn__transperent:hover {
+   color: #E6129E;
+   border: 1px solid #E6129E;
+}

@@ -1,0 +1,65 @@
+.title {
+   margin: 0;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   position: relative;
+   font-size: 8.75rem;
+   line-height: 134px;
+   letter-spacing: 0.2em;
+   z-index: -3;
+}
+
+.title {
+   font-size: 8.75rem;
+   line-height: 134px;
+   letter-spacing: 0.2em;
+}
+
+@media (max-width: 1024px) {
+   .title {
+      font-size: 6.75rem;
+      line-height: 102px;
+   }
+}
+
+@media (max-width: 991px) {
+   .title {
+      font-size: 5rem;
+      line-height: 74px;
+   }
+
+   .container {
+      max-width: 720px;
+   }
+}
+
+@media (max-width: 690px) {
+   .title {
+      font-size: 3.125rem;
+   }
+
+}
+
+@media (max-width: 500px) {
+   .title {
+      font-size: 2.5rem;
+   }
+
+}
+
+@media (max-width: 425px) {
+
+   .title {
+      font-size: 2.19rem;
+   }
+
+}
+
+@media (max-width: 320px) {
+
+   .title {
+      font-size: 1.69rem;
+   }
+
+}

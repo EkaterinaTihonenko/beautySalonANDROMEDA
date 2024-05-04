@@ -1,0 +1,57 @@
+@import 'reset.css';
+@import './styles/scroll.css';
+@import './styles/fonts.css';
+@import './styles//link.css';
+
+
+body {
+   box-sizing: border-box;
+   font-family: "Gotham Pro", sans-serif;
+   background: #030303;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 130%;
+   color: #FFFFFF;
+}
+
+.container {
+   padding: 0 15px;
+   max-width: 1400px;
+   margin: 0 auto;
+}
+
+.d-flex {
+   display: flex;
+}
+
+li {
+   padding: 5px 0;
+}
+
+@media (max-width: 1024px) {
+   .d-flex {
+      flex-wrap: wrap;
+   }
+
+   .container {
+      max-width: 960px;
+   }
+}
+
+@media (max-width: 991px) {
+   .container {
+      max-width: 720px;
+   }
+}
+
+@media (max-width: 768px) {
+   .container {
+      max-width: 650px;
+   }
+}
+
+@media (max-width: 375px) {
+   .container {
+      padding: 0 10px;
+   }
+}

@@ -1,0 +1,23 @@
+.item {
+   transition: opacity 0.2s ease-in;
+}
+
+.item:hover {
+   opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+
+   .item {
+      display: block;
+      padding: 8px;
+      color: white;
+      line-height: 40px;
+      text-decoration: none;
+   }
+
+   .item:hover {
+      background: rgba(255, 255, 255, .2)
+   }
+
+}

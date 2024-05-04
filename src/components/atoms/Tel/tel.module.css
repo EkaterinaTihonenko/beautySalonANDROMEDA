@@ -1,0 +1,25 @@
+.tel {
+   font-weight: 300;
+   z-index: 2;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-weight: 500;
+}
+
+.tel:hover {
+   color: #E6129E;
+   transition: .8s;
+}
+
+@media (max-width: 1024px) {
+   .tel {
+      display: none;
+   }
+}
+
+@media (max-width: 400px) {
+   .tel {
+      margin: 0 10px;
+   }
+}

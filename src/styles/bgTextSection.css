@@ -1,0 +1,72 @@
+.bg__text {
+   line-height: 0;
+   position: relative;
+   vertical-align: baseline;
+   color: transparent;
+   -webkit-text-stroke: 1px #640A84;
+   font-weight: 700;
+   font-size: 130px;
+   text-transform: uppercase;
+   z-index: -1;
+}
+
+@media (max-width: 1024px) {
+   .bg__text {
+      font-size: 90px;
+   }
+}
+
+@media (max-width: 768px) {
+   .bg__text {
+      font-size: 70px;
+   }
+
+}
+
+@media (max-width: 690px) {
+   .bg__text {
+      font-size: 60px;
+   }
+
+}
+
+@media (max-width: 630px) {
+   .bg__text {
+      font-size: 55px;
+   }
+
+}
+
+@media (max-width: 590px) {
+   .bg__text {
+      font-size: 50px;
+   }
+
+}
+
+@media (max-width: 540px) {
+   .bg__text {
+      font-size: 45px;
+   }
+}
+
+@media (max-width: 480px) {
+   .bg__text {
+      font-size: 40px;
+   }
+
+}
+
+@media (max-width: 375px) {
+   .bg__text {
+      font-size: 35px;
+   }
+
+}
+
+@media (max-width: 320px) {
+   .bg__text {
+      font-size: 30px;
+   }
+
+}

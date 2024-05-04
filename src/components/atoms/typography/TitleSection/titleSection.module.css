@@ -1,0 +1,72 @@
+.title__section {
+   margin: 0;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   position: relative;
+   margin-bottom: 47px;
+}
+
+.title__section {
+   font-size: 80px;
+   line-height: 77px;
+}
+
+@media (max-width: 768px) {
+
+   .title__section {
+      font-size: 57px;
+      line-height: 54px;
+   }
+
+}
+
+@media (max-width: 690px) {
+
+   .title__section {
+      font-size: 50px;
+      line-height: 47px;
+   }
+
+}
+
+@media (max-width: 585px) {
+   .title__section {
+      font-size: 37px;
+      line-height: 34px;
+   }
+
+}
+
+@media (max-width: 425px) {
+
+   .title__section {
+      font-size: 2.19rem;
+      line-height: 29px;
+   }
+
+}
+
+@media (max-width: 375px) {
+
+   .title__section {
+      font-size: 1.88rem;
+   }
+
+}
+
+@media (max-width: 320px) {
+
+   .title__section {
+      font-size: 1.69rem;
+   }
+
+}
+
+@media (max-width: 310px) {
+
+   .title__section {
+      font-size: 1.49rem;
+   }
+
+}

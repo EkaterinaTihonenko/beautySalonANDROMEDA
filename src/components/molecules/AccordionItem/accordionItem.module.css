@@ -1,0 +1,58 @@
+.tab_input {
+   position: absolute;
+   opacity: 0;
+   z-index: -1;
+}
+
+.tab {
+   width: 100%;
+   color: white;
+   overflow: hidden;
+   border-bottom: 1px solid;
+   border-top: 1px solid;
+   border-image: linear-gradient(90deg, rgb(183, 6, 200) 0%, rgb(86, 23, 167) 81%);
+   border-image-slice: 1;
+}
+
+.tab_label {
+   display: flex;
+   justify-content: space-between;
+   padding: 40px 20px;
+   font-weight: 500;
+   font-size: 24px;
+   text-transform: uppercase;
+}
+
+.tab_label:hover {
+   color: rgb(183, 6, 200);
+   ;
+
+}
+
+
+.tab_label::after {
+   content: " ";
+   background-image: url(../../../assets/images/checkbox.svg);
+   transform: rotate(90deg);
+   background-repeat: no-repeat;
+   width: 35px;
+   height: 35px;
+   text-align: center;
+   transition: all .35s;
+}
+
+.tab_content {
+   max-height: 0;
+   padding: 0 1em;
+   color: #ffffff;
+   transition: all .35s;
+}
+
+.tab_input:checked+.tab_label::after {
+   transform: rotate(180deg);
+}
+
+.tab_input:checked~.tab_content {
+   max-height: 100vh;
+   padding: 1em;
+}

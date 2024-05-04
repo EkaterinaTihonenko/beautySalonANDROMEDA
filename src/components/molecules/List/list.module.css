@@ -1,0 +1,42 @@
+.items {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 120%;
+   letter-spacing: 0.15em;
+   text-align: start;
+   text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+
+   .items {
+      flex-direction: column;
+   }
+}
+
+@media (max-width: 768px) {
+
+   .items {
+      order: 3;
+      padding-bottom: 120px;
+   }
+}
+
+@media (max-width: 550px) {
+
+   .items {
+      margin-top: 50px;
+      padding-bottom: 50px;
+      z-index: 2;
+   }
+}
+
+@media (max-width: 320px) {
+
+   .items {
+      padding-bottom: 20px;
+   }
+}

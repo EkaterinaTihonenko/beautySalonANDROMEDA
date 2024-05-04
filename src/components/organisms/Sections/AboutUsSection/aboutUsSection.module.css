@@ -1,0 +1,35 @@
+.about_box {
+   justify-content: space-between;
+}
+
+.about_content {
+   position: relative;
+   flex-basis: 80%;
+}
+
+.about_info {
+   margin-right: 63px;
+   padding-left: 8px;
+}
+
+.about_text {
+   max-width: 500px;
+   line-height: 140%;
+   margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+   .about_content {
+      flex-basis: 100%;
+   }
+
+   .about_text {
+      max-width: 100%;
+   }
+}
+
+@media (max-width: 768px) {
+   .about_info {
+      margin-right: 0;
+   }
+}

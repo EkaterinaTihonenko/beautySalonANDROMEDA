@@ -1,0 +1,1 @@
+export { IsLike } from "./IsLike";

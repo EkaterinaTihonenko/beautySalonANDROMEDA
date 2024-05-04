@@ -1,0 +1,142 @@
+.pulse__wrapp {
+   position: absolute;
+   right: 20%;
+   bottom: 0;
+   z-index: -2;
+}
+
+.pulse {
+   position: relative;
+   text-align: center;
+   width: 448px;
+   height: 448px;
+}
+
+.pulse::before {
+   content: "";
+   position: absolute;
+   border: 1px solid #3D64FF;
+   left: -20px;
+   opacity: 0;
+   right: -20px;
+   top: -20px;
+   bottom: -20px;
+   border-radius: 50%;
+}
+
+@keyframes pulse {
+   0% {
+      transform: scale(0.5);
+      opacity: 0;
+   }
+
+   50% {
+      opacity: 1;
+   }
+
+   100% {
+      transform: scale(1.2);
+      opacity: 0;
+   }
+}
+
+.pulse_ring {
+   position: absolute;
+   content: "";
+   width: 448px;
+   height: 448px;
+   border-radius: 50%;
+   bottom: -8px;
+   right: 9px;
+}
+
+.pulse_ring:before {
+   border: 1px solid #5ED8FF;
+   animation: pulse 6s linear infinite;
+}
+
+.pulse_ring:nth-child(2) {
+   position: absolute;
+   content: "";
+   width: 598px;
+   height: 598px;
+   border-radius: 50%;
+   bottom: -77px;
+   right: -66px;
+}
+
+.pulse_ring:nth-child(2)::before {
+   border: 1px solid #5ED8FF;
+   animation: pulse 6s linear infinite;
+   animation-delay: 1s;
+}
+
+.pulse_ring:nth-child(3) {
+   position: absolute;
+   content: "";
+   width: 740px;
+   height: 740px;
+   border-radius: 50%;
+   bottom: -154px;
+   right: -137px;
+}
+
+.pulse_ring:nth-child(3):before {
+   border: 1px solid rgba(184, 74, 153, 0.6);
+   animation: pulse 6s linear infinite;
+   animation-delay: 1.5s;
+}
+
+
+.pulse_ring:nth-child(4) {
+   position: absolute;
+   content: "";
+   width: 888px;
+   height: 888px;
+   border-radius: 50%;
+   bottom: -224px;
+   right: -211px;
+}
+
+.pulse_ring:nth-child(4):before {
+   border: 1px solid rgba(255, 255, 255, 0.4);
+   animation: pulse 6s linear infinite;
+   animation-delay: 2s;
+}
+
+
+@media (max-width: 1440px) {
+   .pulse__wrapp {
+      right: 5%;
+   }
+}
+
+@media (max-width: 768px) {
+   .pulse__wrapp {
+      right: -5%;
+   }
+}
+
+@media (max-width: 550px) {
+   .pulse__wrapp {
+      right: -20%;
+   }
+}
+
+@media (max-width: 425px) {
+   .pulse__wrapp {
+      right: -35%;
+   }
+}
+
+@media (max-width: 375px) {
+   .pulse__wrapp {
+      right: -45%;
+   }
+}
+
+@media (max-width: 320px) {
+   .pulse__wrapp {
+      right: -70%;
+   }
+}
