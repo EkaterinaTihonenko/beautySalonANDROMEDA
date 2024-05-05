@@ -40,6 +40,7 @@ export const Gallery = () => {
                   classImg={style.img}
                   content={file.url}
                   altContent="img"
+                  loading="lazy"
                 />
               ) : (
                 <video
@@ -47,6 +48,7 @@ export const Gallery = () => {
                   src={`${file.url}#t=0.001`}
                   muted
                   preload="metadata"
+                  loading="lazy"
                 />
               )}
             </div>
@@ -65,6 +67,7 @@ export const Gallery = () => {
       >
         <Btn
           classBtn={style.popup__btn}
+          typeBtn="button"
           onClick={() => setFile(null)}
           content="&times;"
         />
@@ -76,12 +79,14 @@ export const Gallery = () => {
             muted
             autoPlay
             controls
+            loading="lazy"
           />
         ) : (
           <ImgSrc
             classImg={style.popup__img}
             content={file?.url}
             altContent="img"
+            loading="lazy"
           />
         )}
       </div>

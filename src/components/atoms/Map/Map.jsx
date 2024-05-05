@@ -16,7 +16,7 @@ export const Map = () => {
         onMouseEnter={() => cursorChangeHandler("hovered")}
         onMouseLeave={() => cursorChangeHandler("")}
       >
-        <img className={style.img__map} src={map} alt="map" />
+        <img className={style.img__map} src={map} alt="map" loading="lazy" />
       </Link>
     </div>
   );

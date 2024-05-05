@@ -1,4 +1,4 @@
-import { Text, TitleSection } from "../../../atoms";
+import { ImgSrc, Text, TitleSection } from "../../../atoms";
 import { SectionTemplate } from "../../../templates";
 import girl from "../../../../assets/images/girl2.png";
 import bgColor from "../../../../assets/images/color1.svg";
@@ -27,8 +27,18 @@ export const FormSection = () => {
             <Form />
             <div className={style.order__right}>
               <div className={style.order__block}></div>
-              <img src={girl} alt="img" className={style.order__girl} />
-              <img src={bgColor} alt="img" className={style.order__colors} />
+              <ImgSrc
+                classImg={style.order__girl}
+                content={girl}
+                altContent="img"
+                loading="lazy"
+              />
+              <ImgSrc
+                classImg={style.order__colors}
+                content={bgColor}
+                altContent="img"
+                loading="lazy"
+              />
             </div>
           </div>
         </>

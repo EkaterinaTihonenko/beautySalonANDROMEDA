@@ -1,4 +1,4 @@
-import { AnimationPulse, LinkItem, Text, Title } from "../../atoms";
+import { AnimationPulse, ImgSrc, LinkItem, Text, Title } from "../../atoms";
 import { bannerList } from "../../../constants/bannerList";
 import { HashLink } from "react-router-hash-link";
 import { List } from "../../molecules";
@@ -14,7 +14,12 @@ export const BannerMain = () => {
   return (
     <div className={style.banner}>
       <div className={style.banner__content}>
-        <img className={style.img} src={girl} alt="girl" />
+        <ImgSrc
+          classImg={style.img}
+          content={girl}
+          altContent="girl"
+          loading="eager"
+        />
         <div className={`${style.order} ${"d-flex"}`}>
           <Title content="ANDROMEDA" />
           <Text

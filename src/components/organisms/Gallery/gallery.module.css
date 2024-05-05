@@ -71,8 +71,9 @@
    user-select: none;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 1024px) {
    .popup__btn {
-      right: 10px;
+      top: 0;
+      right: 5px;
    }
 }

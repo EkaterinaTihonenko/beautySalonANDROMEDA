@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { CursorContext } from "../../../templates/CursorContext/CursorContext";
-import { Text, TitleSection } from "../../../atoms";
+import { ImgSrc, Text, TitleSection } from "../../../atoms";
 import { SectionTemplate } from "../../../templates";
 import { PartnersList } from "../../../../constants/PartnersList";
 
@@ -26,7 +26,12 @@ export const PartnersSection = () => {
                   onMouseEnter={() => cursorChangeHandler("hovered")}
                   onMouseLeave={() => cursorChangeHandler("")}
                 >
-                  <img className={style.img} src={item.partner} alt="logo" />
+                  <ImgSrc
+                    classImg={style.img}
+                    content={item.partner}
+                    altContent="logo"
+                    loading="lazy"
+                  />
                 </div>
               );
             })}

@@ -11,6 +11,7 @@ import "swiper/css/pagination";
 import "./styles.css";
 
 import { EffectCoverflow, Pagination } from "swiper/modules";
+import { ImgSrc } from "../../atoms";
 
 export default function SliderSwiper() {
   return (
@@ -30,19 +31,19 @@ export default function SliderSwiper() {
       modules={[EffectCoverflow, Pagination]}
     >
       <SwiperSlide>
-        <img src={Slider_1} alt="slide" />
+        <ImgSrc content={Slider_1} altContent="slide" loading="lazy" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Slider_2} alt="slide" />
+        <ImgSrc content={Slider_2} altContent="slide" loading="lazy" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Slider_3} alt="slide" />
+        <ImgSrc content={Slider_3} altContent="slide" loading="lazy" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Slider_4} alt="slide" />
+        <ImgSrc content={Slider_4} altContent="slide" loading="lazy" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Slider_5} alt="slide" />
+        <ImgSrc content={Slider_5} altContent="slide" loading="lazy" />
       </SwiperSlide>
     </Swiper>
   );

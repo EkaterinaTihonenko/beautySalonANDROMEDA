@@ -31,7 +31,12 @@ export const Card = ({
       onMouseLeave={onMouseLeave}
     >
       {imgCard && (
-        <ImgSrc classImg={imgCardClass} content={imgCard} altContent={alt} />
+        <ImgSrc
+          classImg={imgCardClass}
+          content={imgCard}
+          altContent={alt}
+          loading="lazy"
+        />
       )}
       {smile && <div className={style.card__block}>{smile}</div>}
       {titleCard && (
@@ -46,7 +51,12 @@ export const Card = ({
           onMouseEnter={() => cursorChangeHandler("hovered")}
           onMouseLeave={() => cursorChangeHandler("")}
         >
-          <ImgSrc classImg={style.arrow} content={img} altContent={alt} />
+          <ImgSrc
+            classImg={style.arrow}
+            content={img}
+            altContent={alt}
+            loading="lazy"
+          />
         </Link>
       )}
 
