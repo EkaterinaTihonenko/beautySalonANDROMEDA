@@ -1,3 +1,8 @@
+.form_wrapp {
+   display: flex;
+   flex-direction: column;
+}
+
 .form {
    width: 100%;
    position: relative;
@@ -57,3 +62,5 @@
    line-height: 100%;
    color: #404040;
 }
+
+.span {}

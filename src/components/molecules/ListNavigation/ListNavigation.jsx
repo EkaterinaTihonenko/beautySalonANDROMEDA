@@ -6,7 +6,7 @@ import { Scrool } from "../../../helpers/scrool";
 
 import style from "./listNavigation.module.css";
 
-export const ListNavigation = () => {
+export const ListNavigation = ({ classNavLink }) => {
   const activeLink = "active";
   const normalLink = "item";
   const { cursorChangeHandler } = useContext(CursorContext);
@@ -19,7 +19,9 @@ export const ListNavigation = () => {
             key={index}
             to={item.path}
             className={`${({ isActive }) =>
-              isActive ? activeLink : normalLink} ${style.item}`}
+              isActive ? activeLink : normalLink} ${
+              style.item
+            } ${classNavLink}`}
             onMouseEnter={() => cursorChangeHandler("hovered")}
             onMouseLeave={() => cursorChangeHandler("")}
             onClick={Scrool}

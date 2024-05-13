@@ -20,6 +20,14 @@
    column-gap: 40px;
 }
 
+.item {
+   transition: opacity 0.2s ease-in;
+}
+
+.item:hover {
+   opacity: 0.8;
+}
+
 @media (max-width: 1024px) {
 
    .wrapp__logo {
